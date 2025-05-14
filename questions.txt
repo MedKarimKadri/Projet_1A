@@ -1,0 +1,50 @@
+Quelle planete est surnommee 'la Planete Rouge'?
+Venus
+Mars
+Jupiter
+1
+Quel est le plus grand type d'etoile dans l'univers?
+Naine blanche
+Etoile a neutrons
+Hypergeante
+2
+Combien de temps faut-il a la lumiere du Soleil pour atteindre la Terre?
+8 minutes
+1 heure
+3 secondes
+0
+Quel element est le plus abondant dans le Soleil?
+Helium
+Hydrogene
+Oxygene
+1
+Quelle est la vitesse de liberation necessaire pour quitter la Terre?
+7.9 km/s
+15.3 km/s
+11.2 km/s
+2
+Comment s'appelle notre galaxie?
+Voie Lactee
+Andromede
+Sombrero
+0
+Quel phenomene spatial absorbe toute lumiere environnante?
+Supernova
+Nebuleuse
+Trou noir
+2
+Quelle est la temperature moyenne a la surface de Venus?
+462°C
+-63°C
+15°C
+0
+Quel satellite naturel possede des eruptions cryovolcaniques?
+Lune
+Encelade
+Io
+1
+Quelle est la duree d'une annee sur Jupiter?
+12 ans terrestres
+4 ans terrestres
+88 ans terrestres
+0

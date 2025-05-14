@@ -1,0 +1,405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>JeuEnigme: Référence du fichier enigmetf.c</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">JeuEnigme
+   &#160;<span id="projectnumber">0.1</span>
+   </div>
+   <div id="projectbrief">Jeu d&#39;énigmes en C/SDL</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Généré par Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Recherche');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Recherche');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Fonctions</a>  </div>
+  <div class="headertitle">
+<div class="title">Référence du fichier enigmetf.c</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Implémentation des fonctions liées au jeu d'énigmes SDL (affichage, logique, effets).  
+<a href="#details">Plus de détails...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="enigmetf_8h_source.html">enigmetf.h</a>&quot;</code><br />
+<code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;time.h&gt;</code><br />
+<code>#include &lt;SDL/SDL_image.h&gt;</code><br />
+<code>#include &lt;SDL/SDL_rotozoom.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Graphe des dépendances par inclusion de enigmetf.c:</div>
+<div class="dyncontent">
+<div class="center"><img src="enigmetf_8c__incl.png" border="0" usemap="#enigmetf_8c" alt=""/></div>
+<map name="enigmetf_8c" id="enigmetf_8c">
+<area shape="rect" id="node2" href="enigmetf_8h.html" title="Déclarations des structures et fonctions pour la gestion des énigmes. " alt="" coords="163,80,246,107"/>
+</map>
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Fonctions</h2></td></tr>
+<tr class="memitem:add783d5a491f9b0995d7db2f77b69248"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enigmetf_8c.html#add783d5a491f9b0995d7db2f77b69248">remplir_fichier_questions</a> ()</td></tr>
+<tr class="memdesc:add783d5a491f9b0995d7db2f77b69248"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remplit le fichier texte avec un ensemble fixe de questions et réponses.  <a href="#add783d5a491f9b0995d7db2f77b69248">Plus de détails...</a><br /></td></tr>
+<tr class="separator:add783d5a491f9b0995d7db2f77b69248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96df411397544d76f787b281f15e949c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enigmetf_8c.html#a96df411397544d76f787b281f15e949c">initialiser_enigme</a> (<a class="el" href="structEnigme.html">Enigme</a> *e, SDL_Surface *ecran)</td></tr>
+<tr class="memdesc:a96df411397544d76f787b281f15e949c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialise la structure <a class="el" href="structEnigme.html" title="Contient les données et états pour le jeu d&#39;énigmes. ">Enigme</a> avec les ressources graphiques et questions.  <a href="#a96df411397544d76f787b281f15e949c">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a96df411397544d76f787b281f15e949c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa66a3b05633f2385c4da5acaf86db044"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enigmetf_8c.html#aa66a3b05633f2385c4da5acaf86db044">generer_question_aleatoire</a> (<a class="el" href="structEnigme.html">Enigme</a> *e)</td></tr>
+<tr class="memdesc:aa66a3b05633f2385c4da5acaf86db044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sélectionne une question aléatoire non posée.  <a href="#aa66a3b05633f2385c4da5acaf86db044">Plus de détails...</a><br /></td></tr>
+<tr class="separator:aa66a3b05633f2385c4da5acaf86db044"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a537f9ba868c9f7c54378bd9f901286d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enigmetf_8c.html#a537f9ba868c9f7c54378bd9f901286d4">resoudre_enigme</a> (<a class="el" href="structEnigme.html">Enigme</a> *e, int reponse)</td></tr>
+<tr class="memdesc:a537f9ba868c9f7c54378bd9f901286d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vérifie si la réponse choisie est correcte.  <a href="#a537f9ba868c9f7c54378bd9f901286d4">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a537f9ba868c9f7c54378bd9f901286d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f3600ee7961037d6ace9e39f1741faf"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enigmetf_8c.html#a6f3600ee7961037d6ace9e39f1741faf">gerer_chrono</a> (Uint32 debut)</td></tr>
+<tr class="memdesc:a6f3600ee7961037d6ace9e39f1741faf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calcule le nombre de secondes écoulées (limité à TEMPS_MAX).  <a href="#a6f3600ee7961037d6ace9e39f1741faf">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a6f3600ee7961037d6ace9e39f1741faf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adef1a497c14476efc7b2c85f46b9f5cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enigmetf_8c.html#adef1a497c14476efc7b2c85f46b9f5cd">afficher_chronometre</a> (<a class="el" href="structEnigme.html">Enigme</a> *e, SDL_Surface *ecran)</td></tr>
+<tr class="memdesc:adef1a497c14476efc7b2c85f46b9f5cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Affiche le chronomètre à l'écran selon le temps écoulé.  <a href="#adef1a497c14476efc7b2c85f46b9f5cd">Plus de détails...</a><br /></td></tr>
+<tr class="separator:adef1a497c14476efc7b2c85f46b9f5cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f0bfbf0db91e1872a862848ef834a69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enigmetf_8c.html#a8f0bfbf0db91e1872a862848ef834a69">afficher_enigme</a> (<a class="el" href="structEnigme.html">Enigme</a> *e, SDL_Surface *ecran)</td></tr>
+<tr class="memdesc:a8f0bfbf0db91e1872a862848ef834a69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Affiche une question et ses réponses sur l'écran.  <a href="#a8f0bfbf0db91e1872a862848ef834a69">Plus de détails...</a><br /></td></tr>
+<tr class="separator:a8f0bfbf0db91e1872a862848ef834a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd03e59aac20acbc1578a89ed3b8b08d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="enigmetf_8c.html#afd03e59aac20acbc1578a89ed3b8b08d">afficherEffetRotoZoom</a> (SDL_Surface *screen, SDL_Surface *image, Uint32 startTime, Uint32 currentTime)</td></tr>
+<tr class="memdesc:afd03e59aac20acbc1578a89ed3b8b08d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applique une animation rotozoom sur une image centrale.  <a href="#afd03e59aac20acbc1578a89ed3b8b08d">Plus de détails...</a><br /></td></tr>
+<tr class="separator:afd03e59aac20acbc1578a89ed3b8b08d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Description détaillée</h2>
+<div class="textblock"><p>Implémentation des fonctions liées au jeu d'énigmes SDL (affichage, logique, effets). </p>
+</div><h2 class="groupheader">Documentation des fonctions</h2>
+<a id="adef1a497c14476efc7b2c85f46b9f5cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adef1a497c14476efc7b2c85f46b9f5cd">&#9670;&nbsp;</a></span>afficher_chronometre()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void afficher_chronometre </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEnigme.html">Enigme</a> *&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SDL_Surface *&#160;</td>
+          <td class="paramname"><em>ecran</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Affiche le chronomètre à l'écran selon le temps écoulé. </p>
+<p>Affiche le chronomètre graphique à l'écran.</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>Pointeur vers <a class="el" href="structEnigme.html" title="Contient les données et états pour le jeu d&#39;énigmes. ">Enigme</a>. </td></tr>
+    <tr><td class="paramname">ecran</td><td>Surface SDL. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a8f0bfbf0db91e1872a862848ef834a69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f0bfbf0db91e1872a862848ef834a69">&#9670;&nbsp;</a></span>afficher_enigme()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void afficher_enigme </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEnigme.html">Enigme</a> *&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SDL_Surface *&#160;</td>
+          <td class="paramname"><em>ecran</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Affiche une question et ses réponses sur l'écran. </p>
+<p>Affiche la question et les réponses à l'écran.</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>Structure <a class="el" href="structEnigme.html" title="Contient les données et états pour le jeu d&#39;énigmes. ">Enigme</a>. </td></tr>
+    <tr><td class="paramname">ecran</td><td>Surface SDL. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afd03e59aac20acbc1578a89ed3b8b08d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd03e59aac20acbc1578a89ed3b8b08d">&#9670;&nbsp;</a></span>afficherEffetRotoZoom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void afficherEffetRotoZoom </td>
+          <td>(</td>
+          <td class="paramtype">SDL_Surface *&#160;</td>
+          <td class="paramname"><em>screen</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SDL_Surface *&#160;</td>
+          <td class="paramname"><em>image</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Uint32&#160;</td>
+          <td class="paramname"><em>startTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Uint32&#160;</td>
+          <td class="paramname"><em>currentTime</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Applique une animation rotozoom sur une image centrale. </p>
+<p>Applique un effet rotozoom à une image pendant un temps défini.</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">screen</td><td>Surface d'affichage. </td></tr>
+    <tr><td class="paramname">image</td><td>Image source à animer. </td></tr>
+    <tr><td class="paramname">startTime</td><td>Temps de démarrage. </td></tr>
+    <tr><td class="paramname">currentTime</td><td>Temps courant. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa66a3b05633f2385c4da5acaf86db044"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa66a3b05633f2385c4da5acaf86db044">&#9670;&nbsp;</a></span>generer_question_aleatoire()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void generer_question_aleatoire </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEnigme.html">Enigme</a> *&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sélectionne une question aléatoire non posée. </p>
+<p>Sélectionne une question aléatoire non encore utilisée.</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>Pointeur vers structure <a class="el" href="structEnigme.html" title="Contient les données et états pour le jeu d&#39;énigmes. ">Enigme</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6f3600ee7961037d6ace9e39f1741faf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f3600ee7961037d6ace9e39f1741faf">&#9670;&nbsp;</a></span>gerer_chrono()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int gerer_chrono </td>
+          <td>(</td>
+          <td class="paramtype">Uint32&#160;</td>
+          <td class="paramname"><em>debut</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Calcule le nombre de secondes écoulées (limité à TEMPS_MAX). </p>
+<p>Calcule le temps écoulé depuis le début du chronomètre.</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">debut</td><td>Temps de départ. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>Durée écoulée. </dd></dl>
+
+</div>
+</div>
+<a id="a96df411397544d76f787b281f15e949c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96df411397544d76f787b281f15e949c">&#9670;&nbsp;</a></span>initialiser_enigme()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initialiser_enigme </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEnigme.html">Enigme</a> *&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SDL_Surface *&#160;</td>
+          <td class="paramname"><em>ecran</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialise la structure <a class="el" href="structEnigme.html" title="Contient les données et états pour le jeu d&#39;énigmes. ">Enigme</a> avec les ressources graphiques et questions. </p>
+<p>Initialise les ressources et données nécessaires pour le jeu d'énigmes.</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>Structure à initialiser. </td></tr>
+    <tr><td class="paramname">ecran</td><td>Surface SDL principale. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="add783d5a491f9b0995d7db2f77b69248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add783d5a491f9b0995d7db2f77b69248">&#9670;&nbsp;</a></span>remplir_fichier_questions()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void remplir_fichier_questions </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Remplit le fichier texte avec un ensemble fixe de questions et réponses. </p>
+<p>Remplit le fichier de questions avec des données fixes. </p>
+
+</div>
+</div>
+<a id="a537f9ba868c9f7c54378bd9f901286d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a537f9ba868c9f7c54378bd9f901286d4">&#9670;&nbsp;</a></span>resoudre_enigme()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int resoudre_enigme </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structEnigme.html">Enigme</a> *&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>reponse</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Vérifie si la réponse choisie est correcte. </p>
+<p>Vérifie si la réponse donnée est correcte.</p>
+<dl class="params"><dt>Paramètres</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>Structure <a class="el" href="structEnigme.html" title="Contient les données et états pour le jeu d&#39;énigmes. ">Enigme</a>. </td></tr>
+    <tr><td class="paramname">reponse</td><td>Réponse sélectionnée. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Renvoie</dt><dd>1 si bonne, sinon 0. </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Généré par &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>
